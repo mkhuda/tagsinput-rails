@@ -177,10 +177,10 @@
 	$.fn.tagsInput = function(options) {
     var settings = jQuery.extend({
       interactive:true,
-      defaultText:'add a tag',
+      defaultText:'tambah tag',
       minChars:0,
       width:'100%',
-      height:'100px',
+      height:'auto',
       autocomplete: {selectFirst: false },
       hide:true,
       delimiter: ',',
